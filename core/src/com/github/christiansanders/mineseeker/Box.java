@@ -31,4 +31,10 @@ public class Box extends Sprite {
     public void setIsBomb(Boolean isBomb) {
         this.isBomb = isBomb;
     }
+
+    public void reveal(){
+        this.setTexture(new Texture("badlogic.jpg"));
+    }
+
+
 }

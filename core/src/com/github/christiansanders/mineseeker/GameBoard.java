@@ -12,12 +12,15 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class GameBoard{
     public Box[][] boxes;
     Texture boxTexture;
+    private int nx, ny;
 
     public GameBoard(){
         boxTexture = new Texture("png/box.png");
     }
 
     public void create(int nx, int ny){
+        this.nx = nx;
+        this.ny = ny;
         boxes = new Box[nx][ny];
         int size = MineSeeker.V_WIDTH / nx;
         for (int x = 0; x < nx; x++) {
@@ -39,8 +42,18 @@ public class GameBoard{
         }
     }
 
-    public void revealBox(){
+    public void revealBox(float x, float y){
+        Gdx.app.debug("reveal box", String.valueOf((int) x / this.nx));
+        if(x > 0 && x < MineSeeker.V_WIDTH &&
+                y > 0 && y < MineSeeker.V_WIDTH){
+            int indexX = (int) x / this.nx;
+            int indexY = (int) y / this.ny;
+            Box target = boxes[indexX][indexY];
+            if(!target.getIsBomb()){
+                target.reveal();
+            }
 
+        }
     }
 
     private void openSpace(){
