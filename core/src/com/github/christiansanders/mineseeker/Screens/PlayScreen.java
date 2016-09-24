@@ -17,38 +17,27 @@ import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.github.christiansanders.mineseeker.GameBoard;
 import com.github.christiansanders.mineseeker.MineSeeker;
 
 /**
  * Created by Christian on 16-9-2016.
  */
 public class PlayScreen implements Screen, InputProcessor {
-    private BitmapFont font;
     private Batch batch;
-    private Texture img;
-    private Sprite sprite;
     private Boolean colorChanged;
     private OrthographicCamera cam;
     private Viewport viewport;
     private Vector2 velocitySprite;
+    private GameBoard gameBoard;
 
 
     @Override
     public void show() {
         Gdx.app.setLogLevel(Application.LOG_DEBUG);
-        Gdx.app.debug("hi", "hi");
-        System.out.println("hi");
-
-        font = new BitmapFont();
-        font.setColor(Color.GOLD);
 
         batch = new SpriteBatch();
-        img = new Texture("png/box.png");
-        sprite = new Sprite(img);
-        sprite.setPosition(0, 0);
-        sprite.setSize(10, 10);
         velocitySprite = new Vector2(0, 0);
-
 
         colorChanged = false;
         Gdx.input.setInputProcessor(this);
@@ -56,11 +45,16 @@ public class PlayScreen implements Screen, InputProcessor {
         float w = Gdx.graphics.getWidth();
         float h = Gdx.graphics.getHeight();
         // Setup the camera
-        cam = new OrthographicCamera(MineSeeker.V_WIDTH, MineSeeker.V_HEIGHT * (h / w));
-        cam.position.set(cam.viewportWidth / 2f, cam.viewportHeight / 2f, 0);
+        cam = new OrthographicCamera(MineSeeker.V_WIDTH, MineSeeker.V_HEIGHT);
+        cam.position.set(cam.viewportWidth / 2, cam.viewportHeight / 2, 0);
         cam.update();
-        viewport = new ExtendViewport(MineSeeker.V_WIDTH, MineSeeker.V_HEIGHT, cam);
+        viewport = new FitViewport(MineSeeker.V_WIDTH, MineSeeker.V_HEIGHT, cam);
         viewport.apply();
+
+        // add gameboard
+        gameBoard = new GameBoard();
+        // let the board have 10 by 10 boxes
+        gameBoard.create(10, 10);
     }
 
 
@@ -81,18 +75,11 @@ public class PlayScreen implements Screen, InputProcessor {
         cam.update();
         batch.setProjectionMatrix(cam.combined);
 
-        sprite.setPosition(sprite.getX() + velocitySprite.x * delta, sprite.getY());
-
-        if(!colorChanged) {
-            Gdx.gl.glClearColor(1, 0, 0, 1);
-        }else{
-            Gdx.gl.glClearColor(1, 0, 1, 0);
-        }
+        Gdx.gl.glClearColor(1,1,1, 1);
 
         // start drawing everything on the screen
         batch.begin();
-        font.draw(batch, "HI", 100, 100);
-        sprite.draw(batch);
+        gameBoard.render(batch);
         batch.end();
     }
 
@@ -167,6 +154,7 @@ public class PlayScreen implements Screen, InputProcessor {
 
     @Override
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {
+
         return false;
     }
 

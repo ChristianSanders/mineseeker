@@ -1,5 +1,6 @@
 package com.github.christiansanders.mineseeker;
 
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
 /**
@@ -9,9 +10,10 @@ public class Box extends Sprite {
     private Boolean isVisible;
     private Boolean isBomb;
 
-    public Box(){
+    public Box(Texture texture){
+        super(texture);
         isVisible = false;
-        isBomb = true;
+        isBomb = false;
     }
 
     public Boolean getIsVisible() {
