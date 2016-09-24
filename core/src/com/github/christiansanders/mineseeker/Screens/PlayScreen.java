@@ -27,10 +27,8 @@ import com.github.christiansanders.mineseeker.MineSeeker;
  */
 public class PlayScreen implements Screen, GestureDetector.GestureListener {
     private Batch batch;
-    private Boolean colorChanged;
     private OrthographicCamera cam;
     private Viewport viewport;
-    private Vector2 velocitySprite;
     private GameBoard gameBoard;
 
 
@@ -39,9 +37,6 @@ public class PlayScreen implements Screen, GestureDetector.GestureListener {
         Gdx.app.setLogLevel(Application.LOG_DEBUG);
 
         batch = new SpriteBatch();
-        velocitySprite = new Vector2(0, 0);
-
-        colorChanged = false;
 
         Gdx.input.setInputProcessor(new GestureDetector(this));
 
@@ -80,7 +75,7 @@ public class PlayScreen implements Screen, GestureDetector.GestureListener {
         cam.update();
         batch.setProjectionMatrix(cam.combined);
 
-        Gdx.gl.glClearColor(1,1,1, 1);
+        Gdx.gl.glClearColor(.2f,.2f,.2f, 1);
 
         // start drawing everything on the screen
         batch.begin();

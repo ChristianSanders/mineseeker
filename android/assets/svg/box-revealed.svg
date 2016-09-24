@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="box-revealed.svg"
+   inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box.png"
+   inkscape:export-xdpi="18"
+   inkscape:export-ydpi="18">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3903">
+      <stop
+         id="stop3905"
+         offset="0"
+         style="stop-color:#f8f4f4;stop-opacity:1;" />
+      <stop
+         id="stop3907"
+         offset="1"
+         style="stop-color:#c8dfec;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3868">
+      <stop
+         style="stop-color:#c7c8f6;stop-opacity:1;"
+         offset="0"
+         id="stop3870" />
+      <stop
+         style="stop-color:#c6c8ff;stop-opacity:1;"
+         offset="1"
+         id="stop3872" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3862">
+      <stop
+         id="stop3864"
+         offset="0"
+         style="stop-color:#0000ff;stop-opacity:1;" />
+      <stop
+         id="stop3866"
+         offset="1"
+         style="stop-color:#5fabd3;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3078">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop3080" />
+      <stop
+         style="stop-color:#c80000;stop-opacity:1;"
+         offset="1"
+         id="stop3082" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3763">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop3765" />
+      <stop
+         style="stop-color:#5fabd3;stop-opacity:1;"
+         offset="1"
+         id="stop3767" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3084"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(142.22338,249.62398)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3903"
+       id="linearGradient3860"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.97171573,0,0,0.97171573,519.79162,46.762535)"
+       x1="-337.14285"
+       y1="299.505"
+       x2="108.57144"
+       y2="576.64789" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3868"
+       id="radialGradient3874"
+       cx="370.00003"
+       cy="430.93362"
+       fx="370.00003"
+       fy="430.93362"
+       r="250"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.00207132,1.3818887,-0.99999888,-0.00149891,803.71986,-79.71931)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3882"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(81.614227,-140.2949)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3889"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(81.614227,-140.2949)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3892"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-548.72096,-158.47765)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3901"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-548.72096,-158.47765)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="859.83304"
+     inkscape:cy="303.25274"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-120.00002,-180.93361)">
+    <rect
+       ry="54.285713"
+       y="180.93361"
+       x="122.02033"
+       height="500"
+       width="500"
+       id="rect3858"
+       style="fill:url(#radialGradient3874);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-revealed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:url(#linearGradient3860);fill-opacity:1.0;fill-rule:evenodd;stroke:none"
+       id="rect2985"
+       width="485.85788"
+       height="485.85788"
+       x="120.00002"
+       y="180.93361"
+       ry="52.750278"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-revealed.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:#b60000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3854"
+       width="44.57143"
+       height="331.58731"
+       x="990.51154"
+       y="678.71204"
+       ry="18.271137" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.20212767;stroke:none"
+       id="rect3773"
+       width="1521.5297"
+       height="138.18227"
+       x="-729.92511"
+       y="232.94539"
+       ry="61.057289"
+       transform="matrix(0.76358018,-0.64571303,0.6504227,0.75957245,0,0)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#b60000;fill-opacity:1"
+       id="path3856"
+       sodipodi:sides="3"
+       sodipodi:cx="-908.57141"
+       sodipodi:cy="395.71429"
+       sodipodi:r1="169.32338"
+       sodipodi:r2="84.66169"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -739.24803,395.71429 -126.99254,73.31918 -126.99253,73.31917 0,-146.63835 0,-146.63834 126.99254,73.31917 z"
+       transform="matrix(0.70378445,0,0,0.70378445,1723.3967,505.07544)"
+       inkscape:transform-center-x="-29.791791" />
+    <rect
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none;stroke-width:0.57777780000000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect2996"
+       width="44.57143"
+       height="404.44446"
+       x="-445.92538"
+       y="672.65106"
+       ry="22.285715" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff0000"
+       id="path3019"
+       sodipodi:sides="3"
+       sodipodi:cx="-908.57141"
+       sodipodi:cy="395.71429"
+       sodipodi:r1="169.32338"
+       sodipodi:r2="84.66169"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -739.24803,395.71429 -126.99254,73.31918 -126.99253,73.31917 0,-146.63835 0,-146.63834 126.99254,73.31917 z"
+       transform="matrix(0.70378445,0,0,0.70378445,284.36036,499.21425)"
+       inkscape:transform-center-x="-29.791791" />
+    <rect
+       ry="18.271137"
+       y="882.76282"
+       x="422.80582"
+       height="331.58731"
+       width="44.57143"
+       id="rect3025"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none" />
+    <path
+       inkscape:transform-center-x="-29.791791"
+       transform="matrix(0.70378445,0,0,0.70378445,1155.691,709.12625)"
+       d="m -739.24803,395.71429 -126.99254,73.31918 -126.99253,73.31917 0,-146.63835 0,-146.63834 126.99254,73.31917 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.0471976"
+       sodipodi:arg1="0"
+       sodipodi:r2="84.66169"
+       sodipodi:r1="169.32338"
+       sodipodi:cy="395.71429"
+       sodipodi:cx="-908.57141"
+       sodipodi:sides="3"
+       id="path3027"
+       style="fill:#ff0000"
+       sodipodi:type="star" />
+    <path
+       style="fill:url(#linearGradient3084);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 996.66088,670.62398 c -10.12221,0 -18.28125,8.15904 -18.28125,18.28125 l 0,295.03125 c 0,10.12221 8.15904,18.28122 18.28125,18.28122 l 8.03122,0 c 10.1222,0 18.2813,-8.15901 18.2813,-18.28122 l 0,-111.4375 78.6562,-45.40625 89.375,-51.59375 -89.375,-51.59375 -86.3125,-49.84375 c -0.9604,-0.68815 -1.9743,-1.28751 -3.0625,-1.78125 -2.3052,-1.04596 -4.8576,-1.65625 -7.5625,-1.65625 l -8.03122,0 z"
+       id="rect3029"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g3896"
+       transform="translate(1139.4065,-37.068916)"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-flag.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <rect
+         style="fill:#b60000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="rect3876"
+         width="44.57143"
+         height="331.58731"
+         x="299.5672"
+         y="270.61041"
+         ry="18.271137" />
+      <path
+         sodipodi:type="star"
+         style="fill:#b60000;fill-opacity:1"
+         id="path3878"
+         sodipodi:sides="3"
+         sodipodi:cx="-908.57141"
+         sodipodi:cy="395.71429"
+         sodipodi:r1="169.32338"
+         sodipodi:r2="84.66169"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m -739.24803,395.71429 -126.99254,73.31918 -126.99253,73.31917 0,-146.63835 0,-146.63834 126.99254,73.31917 z"
+         transform="matrix(0.70378445,0,0,0.70378445,1032.4523,96.973814)"
+         inkscape:transform-center-x="-29.791791" />
+      <path
+         style="fill:url(#linearGradient3901);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         d="m 305.71654,262.52235 c -10.12221,0 -18.28125,8.15904 -18.28125,18.28125 l 0,295.03125 c 0,10.12221 8.15904,18.28122 18.28125,18.28122 l 8.03122,0 c 10.1222,0 18.2813,-8.15901 18.2813,-18.28122 l 0,-111.4375 78.65615,-45.40625 89.375,-51.59375 -89.375,-51.59375 -86.31245,-49.84375 c -0.9604,-0.68815 -1.9743,-1.28751 -3.0625,-1.78125 -2.3052,-1.04596 -4.8576,-1.65625 -7.5625,-1.65625 l -8.03122,0 z"
+         id="path3880"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

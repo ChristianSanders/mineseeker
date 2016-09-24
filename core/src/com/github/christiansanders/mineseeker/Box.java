@@ -1,6 +1,8 @@
 package com.github.christiansanders.mineseeker;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Batch;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 
 /**
@@ -10,12 +12,17 @@ public class Box extends Sprite {
     private Boolean visible;
     private Boolean bomb;
     private Boolean flagged;
+    private Boolean revealed;
+    private int bombNeighbours;
+    private BitmapFont font;
 
-    public Box(Texture texture){
+    public Box(Texture texture, BitmapFont font){
         super(texture);
+        this.font = font;
         visible = false;
         bomb = false;
         flagged = false;
+        revealed = false;
     }
 
     public Boolean isVisible() {
@@ -34,8 +41,11 @@ public class Box extends Sprite {
         this.bomb = bomb;
     }
 
-    public void reveal(){
-        this.setTexture(new Texture("badlogic.jpg"));
+    public void reveal(Texture texture){
+        this.setTexture(texture);
+        if(!isBomb()){
+            revealed = true;
+        }
     }
 
     public Boolean isFlagged(){
@@ -46,5 +56,11 @@ public class Box extends Sprite {
         this.flagged = flagged;
     }
 
-
+    @Override public void draw(Batch batch){
+        super.draw(batch);
+        if(revealed) {
+            font.draw(batch, "1", getX() + (getWidth() - font.getXHeight()) / 2,
+                    getY() + (getHeight() + font.getXHeight()) / 2);
+        }
+    }
 }
