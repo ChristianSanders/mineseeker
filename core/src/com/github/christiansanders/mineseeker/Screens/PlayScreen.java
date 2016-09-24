@@ -13,6 +13,7 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
@@ -24,7 +25,7 @@ import com.github.christiansanders.mineseeker.MineSeeker;
 /**
  * Created by Christian on 16-9-2016.
  */
-public class PlayScreen implements Screen, InputProcessor {
+public class PlayScreen implements Screen, GestureDetector.GestureListener {
     private Batch batch;
     private Boolean colorChanged;
     private OrthographicCamera cam;
@@ -41,7 +42,8 @@ public class PlayScreen implements Screen, InputProcessor {
         velocitySprite = new Vector2(0, 0);
 
         colorChanged = false;
-        Gdx.input.setInputProcessor(this);
+
+        Gdx.input.setInputProcessor(new GestureDetector(this));
 
         float w = Gdx.graphics.getWidth();
         float h = Gdx.graphics.getHeight();
@@ -49,8 +51,10 @@ public class PlayScreen implements Screen, InputProcessor {
         cam = new OrthographicCamera(MineSeeker.V_WIDTH, MineSeeker.V_HEIGHT);
         cam.position.set(cam.viewportWidth / 2, cam.viewportHeight / 2, 0);
         cam.update();
-        viewport = new FitViewport(MineSeeker.V_WIDTH, MineSeeker.V_HEIGHT, cam);
+        viewport = new ExtendViewport(MineSeeker.V_WIDTH, MineSeeker.V_HEIGHT, cam);
         viewport.apply();
+
+
 
         // add gameboard
         gameBoard = new GameBoard();
@@ -110,68 +114,65 @@ public class PlayScreen implements Screen, InputProcessor {
     }
 
     @Override
-    public boolean keyDown(int keycode) {
-        switch (keycode){
-            case Input.Keys.LEFT:
-                velocitySprite.set(-10, 0);
-                break;
-            case Input.Keys.RIGHT:
-                velocitySprite.set(10, 0);
-                break;
-            default:
-                return false;
-        }
+    public boolean touchDown(float x, float y, int pointer, int button) {
+        return false;
+    }
+
+    @Override
+    public boolean tap(float x, float y, int count, int button) {
+        Vector3 touchLoc = viewport.unproject(new Vector3(x, y, 0));
+        gameBoard.revealBox(touchLoc.x, touchLoc.y);
         return true;
     }
 
     @Override
-    public boolean keyUp(int keycode) {
-        switch(keycode){
-            case Input.Keys.LEFT:
-                if(velocitySprite.x == -10){
-                    velocitySprite.x = 0;
-                }
-                break;
-            case Input.Keys.RIGHT:
-                if(velocitySprite.x == 10){
-                    velocitySprite.x = 0;
-                }
+    public boolean longPress(float x, float y) {
+        Vector3 touchLoc = new Vector3(x, y, 0);
+        cam.unproject(touchLoc);
+        gameBoard.flagBox(touchLoc.x, touchLoc.y);
+        return true;
+    }
 
-        }
-        Gdx.app.debug("key", String.valueOf(keycode));
+    @Override
+    public boolean fling(float velocityX, float velocityY, int button) {
         return false;
     }
 
     @Override
-    public boolean keyTyped(char character) {
+    public boolean pan(float x, float y, float deltaX, float deltaY) {
+        cam.translate(-deltaX / 3, deltaY / 3);
         return false;
     }
 
     @Override
-    public boolean touchDown(int screenX, int screenY, int pointer, int button) {
-        Vector3 touchLoc = viewport.unproject(new Vector3(screenX, screenY, 0));
-        gameBoard.revealBox(touchLoc.x, touchLoc.y);
+    public boolean panStop(float x, float y, int pointer, int button) {
         return false;
     }
 
     @Override
-    public boolean touchUp(int screenX, int screenY, int pointer, int button) {
+    public boolean zoom(float initialDistance, float distance) {
+        return false;
+    }
+
+    @Override
+    public boolean pinch(Vector2 initialPointer1, Vector2 initialPointer2, Vector2 pointer1, Vector2 pointer2) {
+//        Vector3 iP1 = new Vector3(initialPointer1, 0);
+//        Vector3 iP2 = new Vector3(initialPointer2, 0);
+//        Vector3 p1= new Vector3(pointer1, 0);
+//        Vector3 p2 = new Vector3(pointer2, 0);
+//
+//        cam.unproject(iP1);
+//        cam.unproject(iP2);
+//        cam.unproject(p1);
+//        cam.unproject(p2);
+
+
 
         return false;
     }
 
     @Override
-    public boolean touchDragged(int screenX, int screenY, int pointer) {
-        return false;
-    }
+    public void pinchStop() {
 
-    @Override
-    public boolean mouseMoved(int screenX, int screenY) {
-        return false;
-    }
-
-    @Override
-    public boolean scrolled(int amount) {
-        return false;
     }
 }

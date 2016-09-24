@@ -12,10 +12,12 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class GameBoard{
     public Box[][] boxes;
     Texture boxTexture;
+    Texture boxFlaggedTexture;
     private int nx, ny;
 
     public GameBoard(){
         boxTexture = new Texture("png/box.png");
+        boxFlaggedTexture = new Texture("png/box-flag.png");
     }
 
     public void create(int nx, int ny){
@@ -49,10 +51,28 @@ public class GameBoard{
             int indexX = (int) x / this.nx;
             int indexY = (int) y / this.ny;
             Box target = boxes[indexX][indexY];
-            if(!target.getIsBomb()){
+            if(target.isFlagged()){
+                target.setFlagged(false);
+                target.setTexture(boxTexture);
+            } else if(!target.isBomb()){
                 target.reveal();
             }
+        }
+    }
 
+    public void flagBox(float x, float y){
+        if(x > 0 && x < MineSeeker.V_WIDTH &&
+                y > 0 && y < MineSeeker.V_WIDTH){
+            int indexX = (int) x / this.nx;
+            int indexY = (int) y / this.ny;
+            Box target = boxes[indexX][indexY];
+            if(!target.isFlagged()){
+                target.setFlagged(true);
+                target.setTexture(boxFlaggedTexture);
+            }else{
+                target.setFlagged(false);
+                target.setTexture(boxTexture);
+            }
         }
     }
 

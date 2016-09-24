@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="box.svg"
+   sodipodi:docname="box-flag.svg"
    inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box.png"
    inkscape:export-xdpi="18"
    inkscape:export-ydpi="18">
@@ -96,6 +96,46 @@
        r="250"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(-0.00207132,1.3818887,-0.99999888,-0.00149891,803.71986,-79.71931)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3882"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(81.614227,-140.2949)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3889"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(81.614227,-140.2949)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3892"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-548.72096,-158.47765)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3901"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-548.72096,-158.47765)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -104,9 +144,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="71.627559"
-     inkscape:cy="-59.330353"
+     inkscape:zoom="0.35"
+     inkscape:cx="859.83304"
+     inkscape:cy="303.25274"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -143,7 +183,10 @@
        height="500"
        width="500"
        id="rect3858"
-       style="fill:url(#radialGradient3874);fill-opacity:1;fill-rule:evenodd;stroke:none" />
+       style="fill:url(#radialGradient3874);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
     <rect
        style="fill:url(#linearGradient3860);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect2985"
@@ -151,7 +194,10 @@
        height="485.85788"
        x="120.00002"
        y="180.93361"
-       ry="52.750278" />
+       ry="52.750278"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
     <rect
        style="fill:#b60000;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3854"
@@ -241,5 +287,39 @@
        d="m 996.66088,670.62398 c -10.12221,0 -18.28125,8.15904 -18.28125,18.28125 l 0,295.03125 c 0,10.12221 8.15904,18.28122 18.28125,18.28122 l 8.03122,0 c 10.1222,0 18.2813,-8.15901 18.2813,-18.28122 l 0,-111.4375 78.6562,-45.40625 89.375,-51.59375 -89.375,-51.59375 -86.3125,-49.84375 c -0.9604,-0.68815 -1.9743,-1.28751 -3.0625,-1.78125 -2.3052,-1.04596 -4.8576,-1.65625 -7.5625,-1.65625 l -8.03122,0 z"
        id="rect3029"
        inkscape:connector-curvature="0" />
+    <g
+       id="g3896"
+       transform="translate(5.120802,-8.4974879)">
+      <rect
+         style="fill:#b60000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="rect3876"
+         width="44.57143"
+         height="331.58731"
+         x="299.5672"
+         y="270.61041"
+         ry="18.271137" />
+      <path
+         sodipodi:type="star"
+         style="fill:#b60000;fill-opacity:1"
+         id="path3878"
+         sodipodi:sides="3"
+         sodipodi:cx="-908.57141"
+         sodipodi:cy="395.71429"
+         sodipodi:r1="169.32338"
+         sodipodi:r2="84.66169"
+         sodipodi:arg1="0"
+         sodipodi:arg2="1.0471976"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m -739.24803,395.71429 -126.99254,73.31918 -126.99253,73.31917 0,-146.63835 0,-146.63834 126.99254,73.31917 z"
+         transform="matrix(0.70378445,0,0,0.70378445,1032.4523,96.973814)"
+         inkscape:transform-center-x="-29.791791" />
+      <path
+         style="fill:url(#linearGradient3901);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         d="m 305.71654,262.52235 c -10.12221,0 -18.28125,8.15904 -18.28125,18.28125 l 0,295.03125 c 0,10.12221 8.15904,18.28122 18.28125,18.28122 l 8.03122,0 c 10.1222,0 18.2813,-8.15901 18.2813,-18.28122 l 0,-111.4375 78.65615,-45.40625 89.375,-51.59375 -89.375,-51.59375 -86.31245,-49.84375 c -0.9604,-0.68815 -1.9743,-1.28751 -3.0625,-1.78125 -2.3052,-1.04596 -4.8576,-1.65625 -7.5625,-1.65625 l -8.03122,0 z"
+         id="path3880"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
