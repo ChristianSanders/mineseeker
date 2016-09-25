@@ -63,6 +63,17 @@ public class GameBoard{
             }while(boxes[x][y].isBomb());
 
             boxes[x][y].setBomb(true);
+            addBombCount(x, y);
+        }
+    }
+
+    private void addBombCount(int x, int y){
+        for (int i = -1; i <= 1; i++){
+            for (int j = -1; j <= 1; j++){
+                if(x + i >= 0 && x + i < nx &&
+                        y + j >= 0 && y + j <ny)
+                boxes[x + i][y + j].addBombNeighbour();
+            }
         }
     }
 

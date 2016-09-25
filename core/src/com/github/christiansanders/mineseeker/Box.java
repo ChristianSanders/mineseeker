@@ -14,7 +14,9 @@ public class Box extends Sprite {
     private Boolean flagged;
     private Boolean revealed;
     private int bombNeighbours;
+    private String bombNeighboursString;
     private BitmapFont font;
+
 
     public Box(Texture texture, BitmapFont font){
         super(texture);
@@ -23,6 +25,8 @@ public class Box extends Sprite {
         bomb = false;
         flagged = false;
         revealed = false;
+        bombNeighbours = 0;
+        bombNeighboursString = "";
     }
 
     public Boolean isVisible() {
@@ -59,8 +63,13 @@ public class Box extends Sprite {
     @Override public void draw(Batch batch){
         super.draw(batch);
         if(revealed) {
-            font.draw(batch, "1", getX() + (getWidth() - font.getXHeight()) / 2,
+            font.draw(batch, bombNeighboursString, getX() + (getWidth() - font.getXHeight()) / 2,
                     getY() + (getHeight() + font.getXHeight()) / 2);
         }
+    }
+
+    public void addBombNeighbour(){
+        this.bombNeighbours += 1;
+        this.bombNeighboursString = String.valueOf(bombNeighbours);
     }
 }
