@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="500"
+   height="500"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="box-mine.svg"
+   inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box.png"
+   inkscape:export-xdpi="18"
+   inkscape:export-ydpi="18">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3068">
+      <stop
+         style="stop-color:#939393;stop-opacity:1;"
+         offset="0"
+         id="stop3070" />
+      <stop
+         style="stop-color:#5c5c5c;stop-opacity:1;"
+         offset="1"
+         id="stop3072" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3903">
+      <stop
+         id="stop3905"
+         offset="0"
+         style="stop-color:#f8f4f4;stop-opacity:1;" />
+      <stop
+         id="stop3907"
+         offset="1"
+         style="stop-color:#c8dfec;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3868">
+      <stop
+         style="stop-color:#c7c8f6;stop-opacity:1;"
+         offset="0"
+         id="stop3870" />
+      <stop
+         style="stop-color:#c6c8ff;stop-opacity:1;"
+         offset="1"
+         id="stop3872" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3862">
+      <stop
+         id="stop3864"
+         offset="0"
+         style="stop-color:#0000ff;stop-opacity:1;" />
+      <stop
+         id="stop3866"
+         offset="1"
+         style="stop-color:#5fabd3;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3078">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop3080" />
+      <stop
+         style="stop-color:#c80000;stop-opacity:1;"
+         offset="1"
+         id="stop3082" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3763">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop3765" />
+      <stop
+         style="stop-color:#5fabd3;stop-opacity:1;"
+         offset="1"
+         id="stop3767" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3903"
+       id="linearGradient3860"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.97171573,0,0,0.97171573,519.79162,46.762535)"
+       x1="-337.14285"
+       y1="299.505"
+       x2="108.57144"
+       y2="576.64789" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3868"
+       id="radialGradient3874"
+       cx="370.00003"
+       cy="430.93362"
+       fx="370.00003"
+       fy="430.93362"
+       r="250"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.00207132,1.3818887,-0.99999888,-0.00149891,803.71986,-79.71931)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3882"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(81.614227,-140.2949)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3889"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(81.614227,-140.2949)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3078"
+       id="linearGradient3892"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-548.72096,-158.47765)"
+       x1="921.25909"
+       y1="516.16241"
+       x2="826.30481"
+       y2="516.16241" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3068"
+       id="radialGradient3074"
+       cx="926.40088"
+       cy="153.67963"
+       fx="926.40088"
+       fy="153.67963"
+       r="184.78572"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3606493,0.47931969,-0.33225946,0.94318803,-283.7309,-451.84812)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3068"
+       id="radialGradient3194"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3606493,0.47931969,-0.33225946,0.94318803,-283.7309,-451.84812)"
+       cx="926.40088"
+       cy="153.67963"
+       fx="926.40088"
+       fy="153.67963"
+       r="184.78572" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="1199.5711"
+     inkscape:cy="563.19604"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-120.00002,-180.93361)">
+    <rect
+       ry="54.285713"
+       y="180.93361"
+       x="122.02033"
+       height="500"
+       width="500"
+       id="rect3858"
+       style="fill:url(#radialGradient3874);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:url(#linearGradient3860);fill-opacity:1.0;fill-rule:evenodd;stroke:none"
+       id="rect2985"
+       width="485.85788"
+       height="485.85788"
+       x="120.00002"
+       y="180.93361"
+       ry="52.750278"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:#4d4d4d"
+       id="rect3130"
+       width="171.42857"
+       height="32"
+       x="1762.165"
+       y="656.68463"
+       ry="16"
+       transform="matrix(0.99999999,1.3831716e-4,-1.3831716e-4,0.99999999,0,0)"
+       inkscape:transform-center-y="0.0096205296"
+       inkscape:transform-center-x="-69.285717" />
+    <rect
+       inkscape:transform-center-x="-69.285717"
+       inkscape:transform-center-y="0.0096205296"
+       transform="matrix(0.99999999,1.3831716e-4,-1.3831716e-4,0.99999999,0,0)"
+       ry="16"
+       y="661.02155"
+       x="1392.1656"
+       height="32"
+       width="171.42857"
+       id="rect3120"
+       style="fill:#4d4d4d" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#radialGradient3074);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path3058"
+       sodipodi:cx="981.42859"
+       sodipodi:cy="184.28572"
+       sodipodi:rx="184.28572"
+       sodipodi:ry="184.28572"
+       d="m 1165.7143,184.28572 a 184.28572,184.28572 0 1 1 -368.57143,0 184.28572,184.28572 0 1 1 368.57143,0 z"
+       transform="translate(687.07197,488.93072)" />
+    <rect
+       style="fill:#4d4d4d"
+       id="rect3080"
+       width="171.42857"
+       height="32"
+       x="391.98602"
+       y="-1681.6998"
+       ry="16"
+       transform="matrix(-1.3831716e-4,0.99999999,-0.99999999,-1.3831716e-4,0,0)"
+       inkscape:transform-center-y="69.285713"
+       inkscape:transform-center-x="0.0095964992" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#808080"
+       id="path3078"
+       sodipodi:cx="705.71429"
+       sodipodi:cy="126.42857"
+       sodipodi:rx="16.428572"
+       sodipodi:ry="16.428572"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       transform="matrix(0.68866051,0.68866051,-0.68866051,0.68866051,1266.4091,-164.72194)" />
+    <g
+       id="g3086"
+       transform="translate(482.78624,208.7114)">
+      <rect
+         style="fill:#4d4d4d"
+         id="rect3082"
+         width="171.42857"
+         height="32"
+         x="885.01813"
+         y="-504.58041"
+         ry="16"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         inkscape:transform-center-y="48.999194"
+         inkscape:transform-center-x="-48.985623" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#808080"
+         id="path3084"
+         sodipodi:cx="705.71429"
+         sodipodi:cy="126.42857"
+         sodipodi:rx="16.428572"
+         sodipodi:ry="16.428572"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         transform="matrix(0.97391303,0,0,0.97391303,295.12426,168.94603)" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,487.07196,1140.0678)"
+       id="g3090">
+      <rect
+         inkscape:transform-center-x="-48.985623"
+         inkscape:transform-center-y="48.999194"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         ry="16"
+         y="-504.58041"
+         x="885.01813"
+         height="32"
+         width="171.42857"
+         id="rect3092"
+         style="fill:#4d4d4d" />
+      <path
+         transform="matrix(0.97391303,0,0,0.97391303,295.12426,168.94603)"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         sodipodi:ry="16.428572"
+         sodipodi:rx="16.428572"
+         sodipodi:cy="126.42857"
+         sodipodi:cx="705.71429"
+         id="path3094"
+         style="fill:#808080"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       inkscape:transform-center-x="-48.985623"
+       inkscape:transform-center-y="48.999194"
+       transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+       ry="16"
+       y="-1119.187"
+       x="1448.142"
+       height="32"
+       width="171.42857"
+       id="rect3096"
+       style="fill:#4d4d4d" />
+    <path
+       transform="matrix(0.97391303,0,0,0.97391303,1127.9105,132.65743)"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       sodipodi:ry="16.428572"
+       sodipodi:rx="16.428572"
+       sodipodi:cy="126.42857"
+       sodipodi:cx="705.71429"
+       id="path3098"
+       style="fill:#808080"
+       sodipodi:type="arc" />
+    <g
+       id="g3112"
+       transform="matrix(-1,0,0,-1,3267.0781,1252.2104)">
+      <rect
+         inkscape:transform-center-x="-48.985623"
+         inkscape:transform-center-y="48.999194"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         ry="16"
+         y="-727.87543"
+         x="1255.7131"
+         height="32"
+         width="171.42857"
+         id="rect3100"
+         style="fill:#4d4d4d" />
+      <path
+         transform="matrix(0.97391303,0,0,0.97391303,715.12426,273.23175)"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         sodipodi:ry="16.428572"
+         sodipodi:rx="16.428572"
+         sodipodi:cy="126.42857"
+         sodipodi:cx="705.71429"
+         id="path3102"
+         style="fill:#808080"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3108"
+       transform="matrix(-1,0,0,1,3257.0782,-129.14575)">
+      <rect
+         style="fill:#4d4d4d"
+         id="rect3104"
+         width="171.42857"
+         height="32"
+         x="1426.4512"
+         y="-567.28479"
+         ry="16"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         inkscape:transform-center-y="48.999194"
+         inkscape:transform-center-x="-48.985623" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#808080"
+         id="path3106"
+         sodipodi:cx="705.71429"
+         sodipodi:cy="126.42857"
+         sodipodi:rx="16.428572"
+         sodipodi:ry="16.428572"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         transform="matrix(0.97391303,0,0,0.97391303,722.26712,507.51746)" />
+    </g>
+    <rect
+       style="fill:#4d4d4d"
+       id="rect3116"
+       width="81.428574"
+       height="32"
+       x="1540.6877"
+       y="657.90833"
+       ry="16"
+       transform="matrix(0.99999996,2.9119401e-4,-6.5700652e-5,1,0,0)"
+       inkscape:transform-center-y="0.0096144077"
+       inkscape:transform-center-x="-32.910749" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#808080"
+       id="path3118"
+       sodipodi:cx="705.71429"
+       sodipodi:cy="126.42857"
+       sodipodi:rx="16.428572"
+       sodipodi:ry="16.428572"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       transform="matrix(0.68866051,-0.68866051,0.68866051,0.68866051,983.57946,1073.2928)" />
+    <rect
+       inkscape:transform-center-x="-32.910749"
+       inkscape:transform-center-y="0.0096144077"
+       transform="matrix(0.99999996,2.9119401e-4,-6.5700652e-5,1,0,0)"
+       ry="16"
+       y="819.18799"
+       x="2052.127"
+       height="32"
+       width="81.428574"
+       id="rect3132"
+       style="fill:#4d4d4d" />
+    <path
+       transform="matrix(0.68866051,-0.68866051,0.68866051,0.68866051,1495.008,1234.7214)"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       sodipodi:ry="16.428572"
+       sodipodi:rx="16.428572"
+       sodipodi:cy="126.42857"
+       sodipodi:cx="705.71429"
+       id="path3134"
+       style="fill:#808080"
+       sodipodi:type="arc" />
+    <rect
+       style="fill:#4d4d4d"
+       id="rect3136"
+       width="81.428574"
+       height="32"
+       x="-1793.4562"
+       y="660.30786"
+       ry="16"
+       transform="matrix(-0.99999996,2.9119401e-4,6.5700652e-5,1,0,0)"
+       inkscape:transform-center-y="0.0096345818"
+       inkscape:transform-center-x="32.910766" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#808080"
+       id="path3138"
+       sodipodi:cx="705.71429"
+       sodipodi:cy="126.42857"
+       sodipodi:rx="16.428572"
+       sodipodi:ry="16.428572"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       transform="matrix(-0.68866051,-0.68866051,-0.68866051,0.68866051,2350.5646,1074.7214)" />
+    <rect
+       inkscape:transform-center-x="-48.985623"
+       inkscape:transform-center-y="48.999194"
+       transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+       ry="16"
+       y="-861.54822"
+       x="1087.5531"
+       height="32"
+       width="171.42857"
+       id="rect3140"
+       style="fill:#4d4d4d" />
+    <path
+       transform="matrix(0.97391303,0,0,0.97391303,690.76763,59.800295)"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       sodipodi:ry="16.428572"
+       sodipodi:rx="16.428572"
+       sodipodi:cy="126.42857"
+       sodipodi:cx="705.71429"
+       id="path3142"
+       style="fill:#808080"
+       sodipodi:type="arc" />
+    <rect
+       inkscape:transform-center-x="0.0095694744"
+       inkscape:transform-center-y="-69.285734"
+       transform="matrix(-1.3831716e-4,-0.99999999,-0.99999999,1.3831716e-4,0,0)"
+       ry="16"
+       y="-1681.5142"
+       x="-951.01819"
+       height="32"
+       width="171.42857"
+       id="rect3144"
+       style="fill:#4d4d4d" />
+    <path
+       transform="matrix(0.68866051,-0.68866051,-0.68866051,-0.68866051,1266.4091,1507.7262)"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       sodipodi:ry="16.428572"
+       sodipodi:rx="16.428572"
+       sodipodi:cy="126.42857"
+       sodipodi:cx="705.71429"
+       id="path3146"
+       style="fill:#808080"
+       sodipodi:type="arc" />
+    <rect
+       inkscape:transform-center-x="-54.295126"
+       inkscape:transform-center-y="0.0075098304"
+       transform="matrix(0.99999999,1.3831716e-4,-1.3831716e-4,0.99999999,0,0)"
+       ry="12.538259"
+       y="410.16876"
+       x="442.14862"
+       height="25.076517"
+       width="134.33849"
+       id="rect3148"
+       style="fill:#4d4d4d"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:#4d4d4d"
+       id="rect3150"
+       width="134.33849"
+       height="25.076517"
+       x="152.20181"
+       y="413.56738"
+       ry="12.538259"
+       transform="matrix(0.99999999,1.3831716e-4,-1.3831716e-4,0.99999999,0,0)"
+       inkscape:transform-center-y="0.0075459573"
+       inkscape:transform-center-x="-54.295138"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(0.78364119,0,0,0.78364119,-400.32415,278.58008)"
+       d="m 1165.7143,184.28572 a 184.28572,184.28572 0 1 1 -368.57143,0 184.28572,184.28572 0 1 1 368.57143,0 z"
+       sodipodi:ry="184.28572"
+       sodipodi:rx="184.28572"
+       sodipodi:cy="184.28572"
+       sodipodi:cx="981.42859"
+       id="path3152"
+       style="fill:url(#radialGradient3194);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       sodipodi:type="arc"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       inkscape:transform-center-x="0.0075342389"
+       inkscape:transform-center-y="54.295128"
+       transform="matrix(-1.3831716e-4,0.99999999,-0.99999999,-1.3831716e-4,0,0)"
+       ry="12.538259"
+       y="-379.09274"
+       x="202.74005"
+       height="25.076517"
+       width="134.33849"
+       id="rect3154"
+       style="fill:#4d4d4d"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(0.53966274,0.53966274,-0.53966274,0.53966274,53.668306,-233.6491)"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       sodipodi:ry="16.428572"
+       sodipodi:rx="16.428572"
+       sodipodi:cy="126.42857"
+       sodipodi:cx="705.71429"
+       id="path3156"
+       style="fill:#808080"
+       sodipodi:type="arc"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <g
+       transform="matrix(0.78364119,0,0,0.78364119,-560.41088,58.988641)"
+       id="g3158"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <rect
+         inkscape:transform-center-x="-48.985623"
+         inkscape:transform-center-y="48.999194"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         ry="16"
+         y="-504.58041"
+         x="885.01813"
+         height="32"
+         width="171.42857"
+         id="rect3160"
+         style="fill:#4d4d4d" />
+      <path
+         transform="matrix(0.97391303,0,0,0.97391303,295.12426,168.94603)"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         sodipodi:ry="16.428572"
+         sodipodi:rx="16.428572"
+         sodipodi:cy="126.42857"
+         sodipodi:cx="705.71429"
+         id="path3162"
+         style="fill:#808080"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3164"
+       transform="matrix(0.78364119,0,0,-0.78364119,-557.05243,788.83787)"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <rect
+         style="fill:#4d4d4d"
+         id="rect3166"
+         width="171.42857"
+         height="32"
+         x="885.01813"
+         y="-504.58041"
+         ry="16"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         inkscape:transform-center-y="48.999194"
+         inkscape:transform-center-x="-48.985623" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#808080"
+         id="path3168"
+         sodipodi:cx="705.71429"
+         sodipodi:cy="126.42857"
+         sodipodi:rx="16.428572"
+         sodipodi:ry="16.428572"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         transform="matrix(0.97391303,0,0,0.97391303,295.12426,168.94603)" />
+    </g>
+    <g
+       transform="matrix(-0.78364119,0,0,-0.78364119,1621.475,876.71737)"
+       id="g3170"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <rect
+         style="fill:#4d4d4d"
+         id="rect3172"
+         width="171.42857"
+         height="32"
+         x="1255.7131"
+         y="-727.87543"
+         ry="16"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         inkscape:transform-center-y="48.999194"
+         inkscape:transform-center-x="-48.985623" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#808080"
+         id="path3174"
+         sodipodi:cx="705.71429"
+         sodipodi:cy="126.42857"
+         sodipodi:rx="16.428572"
+         sodipodi:ry="16.428572"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         transform="matrix(0.97391303,0,0,0.97391303,715.12426,273.23175)" />
+    </g>
+    <g
+       transform="matrix(-0.78364119,0,0,0.78364119,1627.2758,-204.75998)"
+       id="g3176"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18">
+      <rect
+         inkscape:transform-center-x="-48.985623"
+         inkscape:transform-center-y="48.999194"
+         transform="matrix(0.70700897,0.70720458,-0.70720458,0.70700897,0,0)"
+         ry="16"
+         y="-567.28479"
+         x="1426.4512"
+         height="32"
+         width="171.42857"
+         id="rect3178"
+         style="fill:#4d4d4d" />
+      <path
+         transform="matrix(0.97391303,0,0,0.97391303,722.26712,507.51746)"
+         d="m 722.14287,126.42857 c 0,9.07325 -7.35533,16.42858 -16.42858,16.42858 -9.07325,0 -16.42857,-7.35533 -16.42857,-16.42858 0,-9.07325 7.35532,-16.42857 16.42857,-16.42857 9.07325,0 16.42858,7.35532 16.42858,16.42857 z"
+         sodipodi:ry="16.428572"
+         sodipodi:rx="16.428572"
+         sodipodi:cy="126.42857"
+         sodipodi:cx="705.71429"
+         id="path3180"
+         style="fill:#808080"
+         sodipodi:type="arc" />
+    </g>
+    <rect
+       inkscape:transform-center-x="-25.790225"
+       inkscape:transform-center-y="0.00751202"
+       transform="matrix(0.99999996,2.9119401e-4,-6.5700652e-5,1,0,0)"
+       ry="12.538259"
+       y="411.27121"
+       x="268.59741"
+       height="25.076517"
+       width="63.810783"
+       id="rect3182"
+       style="fill:#4d4d4d"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(0.53966274,-0.53966274,0.53966274,0.53966274,-167.96868,736.51017)"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       sodipodi:ry="16.428572"
+       sodipodi:rx="16.428572"
+       sodipodi:cy="126.42857"
+       sodipodi:cx="705.71429"
+       id="path3184"
+       style="fill:#808080"
+       sodipodi:type="arc"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       inkscape:transform-center-x="25.790218"
+       inkscape:transform-center-y="0.0075477336"
+       transform="matrix(-0.99999996,2.9119401e-4,6.5700652e-5,1,0,0)"
+       ry="12.538259"
+       y="412.60495"
+       x="-466.69095"
+       height="25.076517"
+       width="63.810783"
+       id="rect3186"
+       style="fill:#4d4d4d"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       transform="matrix(-0.53966274,-0.53966274,-0.53966274,0.53966274,903.25722,737.62967)"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       sodipodi:ry="16.428572"
+       sodipodi:rx="16.428572"
+       sodipodi:cy="126.42857"
+       sodipodi:cx="705.71429"
+       id="path3188"
+       style="fill:#808080"
+       sodipodi:type="arc"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <rect
+       style="fill:#4d4d4d"
+       id="rect3190"
+       width="134.33849"
+       height="25.076517"
+       x="-640.5611"
+       y="-378.9762"
+       ry="12.538259"
+       transform="matrix(-1.3831716e-4,-0.99999999,-0.99999999,1.3831716e-4,0,0)"
+       inkscape:transform-center-y="-54.295099"
+       inkscape:transform-center-x="0.0075115014"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#808080"
+       id="path3192"
+       sodipodi:cx="705.71429"
+       sodipodi:cy="126.42857"
+       sodipodi:rx="16.428572"
+       sodipodi:ry="16.428572"
+       d="m 722.14287,126.42857 a 16.428572,16.428572 0 1 1 -32.85715,0 16.428572,16.428572 0 1 1 32.85715,0 z"
+       transform="matrix(0.53966274,-0.53966274,-0.53966274,-0.53966274,53.668306,1076.9501)"
+       inkscape:export-filename="D:\Github\MineSeeker\android\assets\png\box-mine.png"
+       inkscape:export-xdpi="18"
+       inkscape:export-ydpi="18" />
+  </g>
+</svg>

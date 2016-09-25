@@ -25,10 +25,11 @@ public class GameBoard{
     public GameBoard(){
         boxTexture = new Texture("png/box.png");
         boxFlaggedTexture = new Texture("png/box-flag.png");
-        boxBombTexture = new Texture("badlogic.jpg");
+        boxBombTexture = new Texture("png/box-mine.png");
         boxRevealedTexture = new Texture("png/box-revealed.png");
         font = new BitmapFont(Gdx.files.classpath("com/badlogic/gdx/utils/arial-15.fnt"));
-        font.getData().setScale(0.3f, 0.3f);
+        font.getRegion().getTexture().setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
+        font.getData().setScale(0.3f);
         font.setColor(Color.LIME);
     }
 
