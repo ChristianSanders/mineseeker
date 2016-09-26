@@ -135,8 +135,12 @@ public class PlayScreen implements Screen, GestureDetector.GestureListener {
 
     @Override
     public boolean pan(float x, float y, float deltaX, float deltaY) {
-        cam.translate(-deltaX / 3, deltaY / 3);
-        return false;
+
+        cam.position.add(
+                cam.unproject(new Vector3(0, 0, 0))
+                        .add(cam.unproject(new Vector3(deltaX, deltaY, 0)).scl(-1f))
+        );
+        return true;
     }
 
     @Override
@@ -149,21 +153,32 @@ public class PlayScreen implements Screen, GestureDetector.GestureListener {
         return false;
     }
 
+    private Vector2 oldInitialFirstPointer=null, oldInitialSecondPointer=null;
+    private float oldScale;
+
     @Override
-    public boolean pinch(Vector2 initialPointer1, Vector2 initialPointer2, Vector2 pointer1, Vector2 pointer2) {
-//        Vector3 iP1 = new Vector3(initialPointer1, 0);
-//        Vector3 iP2 = new Vector3(initialPointer2, 0);
-//        Vector3 p1= new Vector3(pointer1, 0);
-//        Vector3 p2 = new Vector3(pointer2, 0);
-//
-//        cam.unproject(iP1);
-//        cam.unproject(iP2);
-//        cam.unproject(p1);
-//        cam.unproject(p2);
-
-
-
-        return false;
+    public boolean pinch (Vector2 initialFirstPointer, Vector2 initialSecondPointer, Vector2 firstPointer, Vector2 secondPointer){
+        if(!(initialFirstPointer.equals(oldInitialFirstPointer)&&initialSecondPointer.equals(oldInitialSecondPointer))){
+            oldInitialFirstPointer = initialFirstPointer.cpy();
+            oldInitialSecondPointer = initialSecondPointer.cpy();
+            oldScale = cam.zoom;
+        }
+        Vector3 center = new Vector3(
+                (firstPointer.x+initialSecondPointer.x)/2,
+                (firstPointer.y+initialSecondPointer.y)/2,
+                0
+        );
+        zoomCamera(center, oldScale*initialFirstPointer.dst(initialSecondPointer)/firstPointer.dst(secondPointer));
+        return true;
+    }
+    private void zoomCamera(Vector3 origin, float scale){
+        cam.update();
+        Vector3 oldUnprojection = cam.unproject(origin.cpy()).cpy();
+        cam.zoom = scale; //Larger value of zoom = small images, border view
+        cam.zoom = Math.min(2.0f, Math.max(cam.zoom, 0.5f));
+        cam.update();
+        Vector3 newUnprojection = cam.unproject(origin.cpy()).cpy();
+        cam.position.add(oldUnprojection.cpy().add(newUnprojection.cpy().scl(-1f)));
     }
 
     @Override
