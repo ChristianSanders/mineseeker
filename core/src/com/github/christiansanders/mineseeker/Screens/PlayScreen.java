@@ -59,7 +59,7 @@ public class PlayScreen implements Screen {
     // the game logic
     // not needed yet since we are using an inputprocessors and thus only event listeners
     private void update(float delta){
-
+        playScreenGestureListener.update(delta);
     }
 
     @Override

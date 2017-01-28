@@ -1,6 +1,5 @@
 package com.github.christiansanders.mineseeker.gestures;
 
-import com.badlogic.gdx.graphics.Camera;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.input.GestureDetector;
 import com.badlogic.gdx.math.Vector2;
@@ -16,11 +15,18 @@ public class PlayScreenGestureListener implements GestureDetector.GestureListene
     private OrthographicCamera cam;
     private GameBoard gameBoard;
 
+    private Boolean isFlinging;
+    private float flingVelX;
+    private float flingVelY;
+    private float damping = 0.001f;
+
 
     public PlayScreenGestureListener(OrthographicCamera cam, Viewport viewport, GameBoard gameBoard){
         this.cam = cam;
         this.viewport = viewport;
         this.gameBoard = gameBoard;
+
+        isFlinging = false;
     }
 
     @Override
@@ -45,16 +51,34 @@ public class PlayScreenGestureListener implements GestureDetector.GestureListene
 
     @Override
     public boolean fling(final float velocityX, final float velocityY, int button) {
-        return false;
+        isFlinging = true;
+        flingVelX = velocityX;
+        flingVelY = velocityY;
+        return true;
     }
 
-    @Override
-    public boolean pan(float x, float y, float deltaX, float deltaY) {
+    public void update(float delta){
+        if(isFlinging){
+            camTranslate(flingVelX * delta, flingVelY * delta);
+            flingVelX *= Math.pow(damping, delta);
+            flingVelY *= Math.pow(damping, delta);
 
+            if((int) flingVelX == 0 && (int) flingVelY == 0){
+                isFlinging = false;
+            }
+        }
+    }
+
+    private void camTranslate(float deltaX, float deltaY){
         cam.position.add(
                 cam.unproject(new Vector3(0, 0, 0))
                         .add(cam.unproject(new Vector3(deltaX, deltaY, 0)).scl(-1f))
         );
+    }
+
+    @Override
+    public boolean pan(float x, float y, float deltaX, float deltaY) {
+        camTranslate(deltaX, deltaY);
         return true;
     }
 
