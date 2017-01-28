@@ -3,7 +3,7 @@ package com.github.christiansanders.mineseeker;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.github.christiansanders.mineseeker.Screens.PlayScreen;
+import com.github.christiansanders.mineseeker.screens.PlayScreen;
 
 public class MineSeeker extends Game {
 	SpriteBatch batch;
