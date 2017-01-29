@@ -8,8 +8,8 @@ import com.github.christiansanders.mineseeker.screens.PlayScreen;
 public class MineSeeker extends Game {
 	SpriteBatch batch;
 	Texture img;
-	public static final int V_WIDTH = 100;
-    public static final int V_HEIGHT = 100;
+	public static final int V_WIDTH = 1000;
+    public static final int V_HEIGHT = 1000;
 
 	
 	@Override

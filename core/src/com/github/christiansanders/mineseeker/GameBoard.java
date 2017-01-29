@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.math.MathUtils;
 
 
@@ -14,12 +15,12 @@ import com.badlogic.gdx.math.MathUtils;
  * Created by Christian on 23-9-2016.
  */
 public class GameBoard{
-    public Box[][] boxes;
-    Texture boxTexture;
-    Texture boxFlaggedTexture;
-    Texture boxBombTexture;
-    Texture boxRevealedTexture;
-    BitmapFont font;
+    private Box[][] boxes;
+    private Texture boxTexture;
+    private Texture boxFlaggedTexture;
+    private Texture boxBombTexture;
+    private Texture boxRevealedTexture;
+    private BitmapFont font;
     private int nx, ny;
 
     public GameBoard(){
@@ -27,10 +28,16 @@ public class GameBoard{
         boxFlaggedTexture = new Texture("png/box-flag.png");
         boxBombTexture = new Texture("png/box-mine.png");
         boxRevealedTexture = new Texture("png/box-revealed.png");
-        font = new BitmapFont(Gdx.files.classpath("com/badlogic/gdx/utils/arial-15.fnt"));
-        font.getRegion().getTexture().setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
-        font.getData().setScale(0.3f);
-        font.setColor(Color.LIME);
+
+        FreeTypeFontGenerator generator = new FreeTypeFontGenerator(Gdx.files.internal("fonts/Roboto-Regular.ttf"));
+        FreeTypeFontGenerator.FreeTypeFontParameter parameter = new FreeTypeFontGenerator.FreeTypeFontParameter();
+        parameter.size = 48;
+        parameter.color = Color.LIME;
+        this.font = generator.generateFont(parameter); // font size 12 pixels
+
+        generator.dispose(); // don't forget to dispose to avoid memory leaks!
+
+
     }
 
     public void create(int nx, int ny){
@@ -45,8 +52,9 @@ public class GameBoard{
         for (int x = 0; x < nx; x++) {
             for(int y = 0; y < ny; y++){
                 boxes[x][y] = new Box(boxTexture, font);
-                boxes[x][y].setSize(size - 1, size - 1);
-                boxes[x][y].setPosition((float) (0.5 + x * size), (float) (0.5 + y * size));
+                boxes[x][y].setSize(size - 0.01f * MineSeeker.V_WIDTH, size - 0.01f * MineSeeker.V_HEIGHT);
+                boxes[x][y].setPosition((float) (0.005f * MineSeeker.V_WIDTH + x * size),
+                                        (float) (0.005f * MineSeeker.V_HEIGHT + y * size));
             }
         }
     }
@@ -86,11 +94,11 @@ public class GameBoard{
     }
 
     public void revealBox(float x, float y){
-        Gdx.app.debug("reveal box", String.valueOf((int) x / this.nx));
+
         if(x > 0 && x < MineSeeker.V_WIDTH &&
-                y > 0 && y < MineSeeker.V_WIDTH){
-            int indexX = (int) x / this.nx;
-            int indexY = (int) y / this.ny;
+                y > 0 && y < MineSeeker.V_HEIGHT){
+            int indexX = (int) x * this.nx / MineSeeker.V_WIDTH;
+            int indexY = (int) y * this.ny / MineSeeker.V_HEIGHT;
             Box target = boxes[indexX][indexY];
             if(target.isFlagged()){
                 target.setFlagged(false);
@@ -106,8 +114,8 @@ public class GameBoard{
     public void flagBox(float x, float y){
         if(x > 0 && x < MineSeeker.V_WIDTH &&
                 y > 0 && y < MineSeeker.V_WIDTH){
-            int indexX = (int) x / this.nx;
-            int indexY = (int) y / this.ny;
+            int indexX = (int) x * this.nx / MineSeeker.V_WIDTH;
+            int indexY = (int) y * this.ny / MineSeeker.V_HEIGHT;
             Box target = boxes[indexX][indexY];
             if(!target.isFlagged()){
                 target.setFlagged(true);
