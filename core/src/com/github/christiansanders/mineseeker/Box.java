@@ -72,4 +72,12 @@ public class Box extends Sprite {
         this.bombNeighbours += 1;
         this.bombNeighboursString = String.valueOf(bombNeighbours);
     }
+
+    public boolean hasBombNeighbours(){
+        return bombNeighbours > 0;
+    }
+
+    public boolean isRevealed(){
+        return revealed;
+    }
 }

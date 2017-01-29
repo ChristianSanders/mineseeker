@@ -94,16 +94,21 @@ public class GameBoard{
     }
 
     public void revealBox(float x, float y){
+        int indexX = (int) x * this.nx / MineSeeker.V_WIDTH;
+        int indexY = (int) y * this.ny / MineSeeker.V_HEIGHT;
+        revealBox(indexX, indexY);
+    }
 
-        if(x > 0 && x < MineSeeker.V_WIDTH &&
-                y > 0 && y < MineSeeker.V_HEIGHT){
-            int indexX = (int) x * this.nx / MineSeeker.V_WIDTH;
-            int indexY = (int) y * this.ny / MineSeeker.V_HEIGHT;
+    public void revealBox(int indexX, int indexY){
+        if(boxInsideGameboard(indexX, indexY)){
             Box target = boxes[indexX][indexY];
             if(target.isFlagged()){
                 target.setFlagged(false);
                 target.setTexture(boxTexture);
             } else if(!target.isBomb()){
+                if(!target.hasBombNeighbours()){
+                    openSpace(indexX, indexY);
+                }
                 target.reveal(boxRevealedTexture);
             } else{
                 target.reveal(boxBombTexture);
@@ -127,8 +132,38 @@ public class GameBoard{
         }
     }
 
-    private void openSpace(){
+    private void openSpace(int indexX, int indexY){
+        // if no bombs nearby
+        if(!boxes[indexX][indexY].hasBombNeighbours()){
+            revealNeighbours(indexX, indexY);
+        }
+        // reveal all boxes in contact with the given one
+        // openSpace
+    }
 
+    private void revealNeighbours(int indexX, int indexY){
+        if(boxInsideGameboard(indexX, indexY)){
+            if(!boxes[indexX][indexY].hasBombNeighbours() &&
+                    !boxes[indexX][indexY].isRevealed()){
+                boxes[indexX][indexY].reveal(boxRevealedTexture);
+                revealNeighbours(indexX - 1, indexY);
+                revealNeighbours(indexX + 1, indexY);
+                revealNeighbours(indexX, indexY - 1);
+                revealNeighbours(indexX, indexY + 1);
+                revealNeighbours(indexX - 1, indexY - 1);
+                revealNeighbours(indexX + 1, indexY + 1);
+                revealNeighbours(indexX + 1, indexY - 1);
+                revealNeighbours(indexX - 1, indexY + 1);
+            }else{
+                boxes[indexX][indexY].reveal(boxRevealedTexture);
+            }
+        }else{
+            return;
+        }
+    }
+
+    private boolean boxInsideGameboard(int indexX, int indexY){
+        return indexX >= 0 && indexX < nx && indexY >=0 && indexY < nx;
     }
 
 }
